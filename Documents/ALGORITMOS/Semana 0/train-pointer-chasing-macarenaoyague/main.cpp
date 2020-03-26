@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 #include <sstream>
@@ -44,11 +45,11 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
         if(line=="endtest")
             break;
 
-        //check max lenght of line
+            //check max lenght of line
         else if (line.size()>64)
             output.push_back(false);
 
-        //validate the instructions
+            //validate the instructions
         else {
             stringstream stream(line);
             while (getline(stream, word, ' '))
@@ -90,3 +91,6 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
 }
 
 
+//https://judgegirl.csie.org/problem/0/50092
+//falta lo de los espacios
+//    A 3 B 0

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(train_maximum_in_pointer_array_macarenaoyague)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(train_maximum_in_pointer_array_macarenaoyague main.cpp)
