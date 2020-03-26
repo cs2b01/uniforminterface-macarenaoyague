@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titulo de la pestaña</title>
+</head>
+<body>
+	<div>
+		<h1> Este es el titulo de la pagina </h1>
+		<h2>Este es el subtitulo</h2>
+		<h6>Este es otro subtitulo (heading 6) </h6>
+	</div>
+	<p>P es para parrafos <div>y div para contenedores </div> Otro tipo de contenedor <span> es span pero no manda el contenido a una linea siguiente. </span>
+
+	Loren magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p> Se puede usar <b>b para negrita</b> pero no tiene mucho significado, asi que tambien se puede usar <strong>strong que significa fuerte.</strong> Asi como <em>em de emphasis</em> en lugar de lo comunmente usado <i>que es la i </i> </p>
+
+<div>Esto es una unordered list: </div>
+	<ul> 
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<ul>
+			<li>Subelemento 1</li>
+			<li>Subelemento 2</li>
+			<li>Subelemento 3</li>
+		</ul>
+		<li>Elemento 3</li>
+	</ul>
+	<p>Order list a continuacion:</p>
+	<ol>
+		<li>Primer elemento</li>
+		<li>Segundo elemento</li>
+		<li>Tercer elemento</li>
+	</ol>
+
+<p>Aca vemos una imagen linkeada a un lugar de internet: </p>
+<img src="https://www.abc.es/media/sociedad/2016/10/20/gato-huerfano2-kM2--620x349@abc.jpg">
+
+	<div><a href="https://www.google.com/search?q=gatitos&rlz=1C5CHFA_enPE843PE843&source=lnms&tbm=isch&sa=X&ved=0ahUKEwim79n47vbhAhXtx1kKHSTCDnkQ_AUIDigB&biw=1680&bih=872" alt="hay un error">Haga click aca para ver mas gatitos</a></div>
+<p>Desaprobados del aula</p>
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Tutor</th>
+				<!-- table header -->
+				<th>Cursos desaprobados</th>
+				<th>Alumno</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<!-- table row -->
+				<td>Sam</td>
+				<!-- for each celda -->
+				<td>2</td>
+				<td>Monica</td>
+			</tr>
+			<tr>
+				<td>Fred</td>
+				<td>4</td>
+				<td>Bruno</td>
+			</tr>
+		</tbody>
+	</table>
+
+<h3>Tabla de pokemones</h3>
+<table border="3">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Image</th>
+			<th>Type</th>
+			<th>Envolves to</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Bulbasaur</td>
+			<td><img width="250" src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+			<td>Grass/Poison</td>
+			<td><a href="http://pokemon.wikia.com/wiki/Ivysaur ">Ivysaur</a></td>
+		</tr>
+		<tr>
+			<td>Charmander</td>
+			<td><img width="250" src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+			<td>Fire</td>
+			<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Jugando con inputs</h2>
+
+<form>
+	<label>
+		Username:
+		<input name="username" type="text" placeholder="usermame" required>
+	</label>
+
+	<label for="pass">Password:</label>
+	<input id="pass" name="password" type="password" placeholder="password" required>
+
+	<label for="email">Email</label>
+	<input id="email" type="email" name="email" placeholder="email" required>
+	<p>Do you prefer cats or dogs?</p>
+
+	<label for="cats">Cats</label>
+	<input name="petchoice" id="cats" type="radio" value="CATS">
+
+	<label for="dogs">Dogs</label>
+	<input name="petchoice" id="dogs" type="radio" value="DOGS">
+
+	<p>Whats your favorite color?</p>
+	<select name="color">
+		<option>Red</option>
+		<option>Orange</option>
+		<option>Yellow</option>
+	</select>
+
+	<p>Cual es tu estado de animo actual</p>
+	<select name="mood">
+		<option value="sad">:(</option>
+		<option value="nocomments">:/</option>
+		<option value="veryhappy">:D</option>
+		<option value="heartbroken">:S</option>
+	</select>
+
+	<p>Resume tu vida profesional</p>
+	<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+	<input type="submit" name="">
+</form>
+
+
+</body>
+</html>

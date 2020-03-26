@@ -1,0 +1,3 @@
+/Users/macarena/Documents/Clion/u1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/Clion/u1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/Clion/u1/cmake-build-debug/CMakeFiles/u1.dir

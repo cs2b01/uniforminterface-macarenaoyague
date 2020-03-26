@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/POO1/punteros/ejemplos.h
+
+/Users/macarena/Documents/POO1/punteros/main.cpp
+iostream
+-
+ejemplos.h
+/Users/macarena/Documents/POO1/punteros/ejemplos.h
+random
+-
+

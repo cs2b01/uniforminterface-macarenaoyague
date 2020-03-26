@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/POO1/examen2/funciones.h
+
+/Users/macarena/Documents/POO1/examen2/main.cpp
+iostream
+-
+funciones.h
+/Users/macarena/Documents/POO1/examen2/funciones.h
+

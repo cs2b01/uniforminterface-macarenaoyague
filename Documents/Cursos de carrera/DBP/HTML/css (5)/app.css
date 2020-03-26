@@ -1,0 +1,42 @@
+h1{
+	color: red;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	background: #33FF00;
+}
+
+li{
+	color: darkseagreen;
+}
+
+ul{
+	background: rgb(0,99,20);
+}
+
+h4{
+
+	color: #AA8000;
+	border: 2px dashed rgb(0,99,20);
+}
+
+em{
+	color: #999  ;
+}
+
+h2{
+	color: rgb(169,128,255);
+}
+
+h3{
+	color: rgba(11,99,150,0.23);
+}
+
+/*decimal (de 0 a 9, 3 digitos), binario(0 y 1), 
+hexadecimal (0 a 9 y A a F, 6 digitos, red-green-blue)*/
+
+body{
+	background: url(http://www.marco.org.mx/marco/libImagenes/IMG147441194559.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

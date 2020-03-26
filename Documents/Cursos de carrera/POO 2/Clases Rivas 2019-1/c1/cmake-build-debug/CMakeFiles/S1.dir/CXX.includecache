@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Clion/c1/BMI.h
+iostream
+-
+string
+-
+
+/Users/macarena/Documents/Clion/c1/main.cpp
+iostream
+-
+string
+-
+BMI.h
+/Users/macarena/Documents/Clion/c1/BMI.h
+

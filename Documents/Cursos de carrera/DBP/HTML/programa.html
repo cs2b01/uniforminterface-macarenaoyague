@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyCHAT</title>
+  <script>
+    function loggin(){
+      var User=document.getElementById("text");
+      var Password=document.getElementById("password");
+      var Alerta= "";
+	    if (User!=Password){
+        Alerta="Oh snap! Invalid Password or username";
+	      alert(Alerta)}   
+    }
+ 
+  </script>
+</head>
+
+<body>
+  <input id="text" type="text" value="Username"> </input>
+  <input id="password" type="password" value="Password"> </input>
+  <input type="submit" value="Submit" onclick=loggin()> </input>
+</body>
+
+</html>

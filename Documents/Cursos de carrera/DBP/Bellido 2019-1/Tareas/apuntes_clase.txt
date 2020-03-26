@@ -1,0 +1,5 @@
+200: OK
+300: redirect error, conecta la pagina
+			cambia de http a https
+400: client error
+500: server error

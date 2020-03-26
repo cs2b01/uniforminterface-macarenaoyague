@@ -1,0 +1,24 @@
+/*element*/
+body{
+	background: pink;
+}
+
+li{
+	border:2px solid green;
+}
+
+/*id*/
+#special{
+	background: yellow;
+	color: #AA2233;
+}
+
+
+/*clas*/
+.universidad{
+	color: rgb(96,164,195);
+}
+
+.checkready{
+	text-decoration: line-through;
+}

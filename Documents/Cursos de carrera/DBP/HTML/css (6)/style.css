@@ -1,0 +1,30 @@
+p{
+	border: 2px solid blue;
+	width: 50%;
+	height: 200px;
+	padding: 10px;
+	margin: 100px;
+	/*usar inspeccionar de chrome para ver mejor*/
+}
+
+div{
+	padding-left: 30px;
+	border: solid 1px red;
+	width: 30%;
+	/*right, left, bottom*/
+	margin-top: 270px;
+}
+
+h1{
+	border: solid green 2px;
+	/*top right bottom left*/
+	margin: 20px 40px 500px 100px ;
+}
+
+h2{
+	border: solid pink 2px;
+	padding: 20px;
+	width: 50%;
+	/*top and bottom, left and right*/
+	margin: 20px 50px ;
+}

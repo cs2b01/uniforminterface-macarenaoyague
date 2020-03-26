@@ -1,0 +1,3 @@
+/Users/macarena/Documents/Clion/texto biblia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/Clion/texto biblia/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/Clion/texto biblia/cmake-build-debug/CMakeFiles/texto_biblia.dir

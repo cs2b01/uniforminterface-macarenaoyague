@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Clion/c3/Vector.h
+
+/Users/macarena/Documents/Clion/c3/main.cpp
+iostream
+-
+vector
+-
+cassert
+-
+Vector.h
+/Users/macarena/Documents/Clion/c3/Vector.h
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTT Board</title>
+	<style type="text/css">
+		h1{
+	text-align: center;
+}
+
+td{
+	height: 100px;
+	width: 100px;
+}
+
+table{
+	margin: auto;
+}
+.vertical{
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+}
+
+.horizontal{
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+	</style>
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+<table>
+	<tr>
+		<td></td>
+		<td class="vertical"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td class="horizontal"></td>
+		<!-- se pueden tener dos clases -->
+		<td class="horizontal vertical"></td>
+		<td class="horizontal"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td class="vertical"></td>
+		<td></td>
+	</tr>
+</table>
+</body>
+</html>

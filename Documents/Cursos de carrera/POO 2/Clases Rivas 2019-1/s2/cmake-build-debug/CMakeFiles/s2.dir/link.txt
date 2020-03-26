@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/s2.dir/main.cpp.o CMakeFiles/s2.dir/estructuras.cpp.o CMakeFiles/s2.dir/LinkedList.cpp.o  -o s2 
