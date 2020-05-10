@@ -1,0 +1,3 @@
+/Users/macarena/Documents/ALGORITMOS/Semana 5/bafana-bafana-11805-macarenaoyague/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/ALGORITMOS/Semana 5/bafana-bafana-11805-macarenaoyague/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/ALGORITMOS/Semana 5/bafana-bafana-11805-macarenaoyague/cmake-build-debug/CMakeFiles/bafana_bafana_11805_macarenaoyague.dir

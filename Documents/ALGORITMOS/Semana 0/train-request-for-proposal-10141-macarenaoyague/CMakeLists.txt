@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(train_request_for_proposal_10141_macarenaoyague)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(train_request_for_proposal_10141_macarenaoyague main.cpp)

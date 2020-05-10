@@ -1,0 +1,3 @@
+/Users/macarena/Documents/ALGORITMOS/Semana 0/train-request-for-proposal-10141-macarenaoyague/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/ALGORITMOS/Semana 0/train-request-for-proposal-10141-macarenaoyague/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/ALGORITMOS/Semana 0/train-request-for-proposal-10141-macarenaoyague/cmake-build-debug/CMakeFiles/train_request_for_proposal_10141_macarenaoyague.dir

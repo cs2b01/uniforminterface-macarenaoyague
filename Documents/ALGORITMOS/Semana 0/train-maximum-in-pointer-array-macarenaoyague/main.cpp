@@ -20,10 +20,10 @@ int main() {
 int max(int *iptr[], int n){
 
     int max = 0;
-
-    for (int i=0; i<n; i++)
-        if (*iptr[i]>max)
-            max=*iptr[i];
+    if (n<=100)
+        for (int i=0; i<n; i++)
+            if (*iptr[i]>max)
+                max=*iptr[i];
 
     return max;
 }
