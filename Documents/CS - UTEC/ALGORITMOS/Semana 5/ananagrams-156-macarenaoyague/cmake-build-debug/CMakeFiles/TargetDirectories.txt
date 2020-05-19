@@ -1,0 +1,3 @@
+/Users/macarena/Documents/CS - UTEC/ALGORITMOS/Semana 5/ananagrams-156-macarenaoyague/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/CS - UTEC/ALGORITMOS/Semana 5/ananagrams-156-macarenaoyague/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/CS - UTEC/ALGORITMOS/Semana 5/ananagrams-156-macarenaoyague/cmake-build-debug/CMakeFiles/ananagrams_156_macarenaoyague.dir

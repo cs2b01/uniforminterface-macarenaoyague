@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/CS - UTEC/ALGORITMOS/Semana 5/ananagrams-156-macarenaoyague/main.cpp
+iostream
+-
+unordered_map
+-
+vector
+-
+
