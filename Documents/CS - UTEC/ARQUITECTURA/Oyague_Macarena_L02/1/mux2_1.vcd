@@ -1,0 +1,44 @@
+$date
+	Thu May  7 14:45:58 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux2_1_tb $end
+$var wire 16 ! output1 [15:0] $end
+$var reg 16 " input1 [15:0] $end
+$var reg 16 # input2 [15:0] $end
+$var reg 1 $ selector $end
+$scope module mux $end
+$var wire 16 % input1 [15:0] $end
+$var wire 16 & input2 [15:0] $end
+$var wire 1 $ selector $end
+$var wire 16 ' output1 [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11010100100100 '
+b101111010000001 &
+b11010100100100 %
+0$
+b101111010000001 #
+b11010100100100 "
+b11010100100100 !
+$end
+#1
+b101111010000001 !
+b101111010000001 '
+1$
+#2
+b11010100100100 !
+b11010100100100 '
+0$
+#3
+b101111010000001 !
+b101111010000001 '
+1$

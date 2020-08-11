@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/Matriz.cpp
+Matriz.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/Matriz.h
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/Matriz.h
+iostream
+-
+vector
+-
+ctime
+-
+cstdlib
+-
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/OperacionesDeMatrices.h
+Matriz.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/Matriz.h
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/SobrecargaDeOperadores.h
+Matriz.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/Matriz.h
+OperacionesDeMatrices.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/OperacionesDeMatrices.h
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/main.cpp
+iostream
+-
+SobrecargaDeOperadores.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/Grupo 1/SobrecargaDeOperadores.h
+

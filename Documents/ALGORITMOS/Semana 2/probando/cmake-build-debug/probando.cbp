@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="probando"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="probando">
+				<Option output="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug/probando" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 probando"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="probando/fast">
+				<Option output="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug/probando" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 probando/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/macarena/Documents/ALGORITMOS/Semana\ 2/probando/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/forward.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/bidirectional_iterator.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/forward_iterator.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/linked.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/list.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/main.cpp">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/node.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/queue.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/stack.h">
+			<Option target="probando"/>
+		</Unit>
+		<Unit filename="/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

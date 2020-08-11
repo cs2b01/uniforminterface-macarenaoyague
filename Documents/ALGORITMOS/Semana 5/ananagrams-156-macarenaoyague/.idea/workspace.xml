@@ -25,7 +25,9 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="ananagrams_156_macarenaoyague" targetName="ananagrams_156_macarenaoyague" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -42,6 +44,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -61,9 +64,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ananagrams_156_macarenaoyague" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ananagrams_156_macarenaoyague" TARGET_NAME="ananagrams_156_macarenaoyague" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ananagrams_156_macarenaoyague" RUN_TARGET_NAME="ananagrams_156_macarenaoyague">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589136291382</updated>
       <workItem from="1589136295235" duration="5223000" />
-      <workItem from="1589476355223" duration="2070000" />
+      <workItem from="1589476355223" duration="1803000" />
+      <workItem from="1589478536710" duration="118000" />
     </task>
     <servers />
   </component>
@@ -84,26 +96,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="827" height="295" key="GridCell.Tab.0.bottom" timestamp="1589478471303">
+    <state width="792" height="295" key="GridCell.Tab.0.bottom" timestamp="1589478654907">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="827" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1589478471303" />
-    <state width="827" height="295" key="GridCell.Tab.0.center" timestamp="1589478471300">
+    <state width="792" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1589478654907" />
+    <state width="792" height="295" key="GridCell.Tab.0.center" timestamp="1589478654906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="827" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1589478471300" />
-    <state width="827" height="295" key="GridCell.Tab.0.left" timestamp="1589478471299">
+    <state width="792" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1589478654906" />
+    <state width="792" height="295" key="GridCell.Tab.0.left" timestamp="1589478654906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="827" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1589478471299" />
-    <state width="827" height="295" key="GridCell.Tab.0.right" timestamp="1589478471302">
+    <state width="792" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1589478654906" />
+    <state width="792" height="295" key="GridCell.Tab.0.right" timestamp="1589478654907">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="827" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1589478471302" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1589476356863">
+    <state width="792" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1589478654907" />
+    <state x="517" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589478540627">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589476356863" />
+    <state x="517" y="343" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589478540627" />
     <state x="910" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1589478052511">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

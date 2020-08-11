@@ -1,0 +1,382 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build near.18.0220.2210                                -->
+<datasource formatted-name='Indicadores Mundiales' inline='true' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection caption='Indicadores Mundiales' name='hyper.16jz4s30c5ydey131t3qd0kqrkh2'>
+        <connection authentication='auth-none' author-locale='es_ES' class='hyper' dbname='Indicadores Mundiales.hyper' default-settings='yes' sslmode='' username='tableau_internal_user' />
+      </named-connection>
+    </named-connections>
+    <relation connection='hyper.16jz4s30c5ydey131t3qd0kqrkh2' name='Extract' table='[Extract].[Extract]' type='table' />
+    <metadata-records>
+      <metadata-record class='column'>
+        <remote-name>Año</remote-name>
+        <remote-type>133</remote-type>
+        <local-name>[Año]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Año</remote-alias>
+        <ordinal>0</ordinal>
+        <local-type>date</local-type>
+        <aggregation>Year</aggregation>
+        <approx-count>13</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Días para iniciar un negocio</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Días para iniciar un negocio]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Días para iniciar un negocio</remote-alias>
+        <ordinal>1</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>109</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Emisiones de CO2</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Emisiones de CO2]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Emisiones de CO2</remote-alias>
+        <ordinal>2</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1012</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Esperanza de vida (hombres)</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Esperanza de vida (hombres)]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Esperanza de vida (hombres)</remote-alias>
+        <ordinal>3</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>43</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Esperanza de vida (mujeres)</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Esperanza de vida (mujeres)]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Esperanza de vida (mujeres)</remote-alias>
+        <ordinal>4</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>47</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Facilidad para hacer negocios</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Facilidad para hacer negocios]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Facilidad para hacer negocios</remote-alias>
+        <ordinal>5</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>59</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Gasto en salud (% del PIB)</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Gasto en salud (% del PIB)]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Gasto en salud (% del PIB)</remote-alias>
+        <ordinal>6</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>20</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Gasto en salud (per cápita)</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Gasto en salud (per cápita)]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Gasto en salud (per cápita)</remote-alias>
+        <ordinal>7</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>629</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Horas para preparar los impuestos</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Horas para preparar los impuestos]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Horas para preparar los impuestos</remote-alias>
+        <ordinal>8</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>188</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Interés de préstamos</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Interés de préstamos]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Interés de préstamos</remote-alias>
+        <ordinal>9</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>194</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>PIB</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[PIB]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>PIB</remote-alias>
+        <ordinal>10</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>País/Región</remote-name>
+        <remote-type>129</remote-type>
+        <local-name>[País/Región]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>País/Región</remote-alias>
+        <ordinal>11</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <approx-count>209</approx-count>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Población +65</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Población +65]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Población +65</remote-alias>
+        <ordinal>12</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>147</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Población 0-14</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Población 0-14]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Población 0-14</remote-alias>
+        <ordinal>13</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>285</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Población 15-64</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Población 15-64]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Población 15-64</remote-alias>
+        <ordinal>14</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>222</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Población total</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Población total]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Población total</remote-alias>
+        <ordinal>15</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Población urbana</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Población urbana]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Población urbana</remote-alias>
+        <ordinal>16</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Región</remote-name>
+        <remote-type>129</remote-type>
+        <local-name>[Región]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Región</remote-alias>
+        <ordinal>17</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <approx-count>6</approx-count>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Tasa de mortalidad infantil</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Tasa de mortalidad infantil]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Tasa de mortalidad infantil</remote-alias>
+        <ordinal>18</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Tasa de natalidad</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Tasa de natalidad]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Tasa de natalidad</remote-alias>
+        <ordinal>19</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Tasa tributaria empresarial</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Tasa tributaria empresarial]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Tasa tributaria empresarial</remote-alias>
+        <ordinal>20</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Turismo de entrada</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Turismo de entrada]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Turismo de entrada</remote-alias>
+        <ordinal>21</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Turismo de salida</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Turismo de salida]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Turismo de salida</remote-alias>
+        <ordinal>22</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>1</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Uso de Internet</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Uso de Internet]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Uso de Internet</remote-alias>
+        <ordinal>23</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>94</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Uso de energía</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Uso de energía]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Uso de energía</remote-alias>
+        <ordinal>24</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>775</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Uso de teléfonos móviles</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[Uso de teléfonos móviles]</local-name>
+        <parent-name>[Extract]</parent-name>
+        <remote-alias>Uso de teléfonos móviles</remote-alias>
+        <ordinal>25</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <approx-count>167</approx-count>
+        <contains-null>true</contains-null>
+      </metadata-record>
+    </metadata-records>
+  </connection>
+  <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+    <calculation class='tableau' formula='1' />
+  </column>
+  <column datatype='string' name='[País/Región]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+    <semantic-values semantic-role='[Country].[Name]'>
+      <semantic-value key='&quot;Arabia Saudí&quot;' value='&quot;Saudi Arabia&quot;' />
+      <semantic-value key='&quot;Baréin&quot;' value='&quot;Bahrain&quot;' />
+      <semantic-value key='&quot;Bermudas&quot;' value='&quot;Bermuda&quot;' />
+      <semantic-value key='&quot;Comoras&quot;' value='&quot;Comoros&quot;' />
+      <semantic-value key='&quot;Fiyi&quot;' value='&quot;Fiji&quot;' />
+      <semantic-value key='&quot;Guinea-Bisáu&quot;' value='&quot;Guinea-Bissau&quot;' />
+      <semantic-value key='&quot;Hong Kong RAE&quot;' value='&quot;Hong Kong&quot;' />
+      <semantic-value key='&quot;Isla de San Martín (parte neerlandesa)&quot;' value='&quot;Sint Maarten (Dutch part)&quot;' />
+      <semantic-value key='&quot;Islas Feroe&quot;' value='&quot;Faroe Islands&quot;' />
+      <semantic-value key='&quot;Macao RAE&quot;' value='&quot;Macau&quot;' />
+      <semantic-value key='&quot;Micronesia (Estados Federados)&quot;' value='&quot;Federated States of Micronesia&quot;' />
+    </semantic-values>
+  </column>
+  <folder name='Desarrollo' role='measures'>
+    <folder-item name='[Emisiones de CO2]' type='field' />
+    <folder-item name='[PIB]' type='field' />
+    <folder-item name='[Turismo de entrada]' type='field' />
+    <folder-item name='[Turismo de salida]' type='field' />
+    <folder-item name='[Uso de Internet]' type='field' />
+    <folder-item name='[Uso de energía]' type='field' />
+    <folder-item name='[Uso de teléfonos móviles]' type='field' />
+  </folder>
+  <folder name='Negocio' role='measures'>
+    <folder-item name='[Días para iniciar un negocio]' type='field' />
+    <folder-item name='[Facilidad para hacer negocios]' type='field' />
+    <folder-item name='[Horas para preparar los impuestos]' type='field' />
+    <folder-item name='[Interés de préstamos]' type='field' />
+    <folder-item name='[Tasa tributaria empresarial]' type='field' />
+  </folder>
+  <folder name='Población' role='measures'>
+    <folder-item name='[Población +65]' type='field' />
+    <folder-item name='[Población 0-14]' type='field' />
+    <folder-item name='[Población 15-64]' type='field' />
+    <folder-item name='[Población total]' type='field' />
+    <folder-item name='[Población urbana]' type='field' />
+    <folder-item name='[Tasa de natalidad]' type='field' />
+  </folder>
+  <folder name='Salud' role='measures'>
+    <folder-item name='[Esperanza de vida (hombres)]' type='field' />
+    <folder-item name='[Esperanza de vida (mujeres)]' type='field' />
+    <folder-item name='[Gasto en salud (% del PIB)]' type='field' />
+    <folder-item name='[Gasto en salud (per cápita)]' type='field' />
+    <folder-item name='[Tasa de mortalidad infantil]' type='field' />
+  </folder>
+  <layout dim-ordering='alphabetic' dim-percentage='0.146087' measure-ordering='alphabetic' measure-percentage='0.78087' parameter-percentage='0.0730435' show-structure='false' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+  </semantic-values>
+</datasource>

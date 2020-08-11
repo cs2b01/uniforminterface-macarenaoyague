@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/Gramatica.h
+NumerosCardinales.h
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/NumerosCardinales.h
+
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/NumerosCardinales.h
+
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/Parser.h
+
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/main.cpp
+iostream
+-
+vector
+-
+Gramatica.h
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/Gramatica.h
+Parser.h
+/Users/macarena/Documents/CS - UTEC/TC/CifrasEnAleman/Parser.h
+

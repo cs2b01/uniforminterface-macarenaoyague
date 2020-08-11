@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC1-sec2/Frecuencia.cpp
+Frecuencia.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC1-sec2/Frecuencia.h
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC1-sec2/Frecuencia.h
+vector
+-
+string
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC1-sec2/string
+fstream
+-
+iostream
+-
+sstream
+-
+

@@ -1,0 +1,56 @@
+$date
+	Sun May 31 22:08:44 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module greaterOrEqualTo6_tb $end
+$var wire 1 ! z1 $end
+$var reg 3 " y [2:0] $end
+$scope module mod $end
+$var wire 3 # y [2:0] $end
+$var reg 1 ! z1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+0!
+$end
+#1
+b1 "
+b1 #
+#2
+b10 "
+b10 #
+#3
+b11 "
+b11 #
+#4
+b100 "
+b100 #
+#5
+b101 "
+b101 #
+#6
+1!
+b110 "
+b110 #
+#7
+b111 "
+b111 #
+#8
+0!
+b0 "
+b0 #
+#9
+b1 "
+b1 #
+#10
+b10 "
+b10 #

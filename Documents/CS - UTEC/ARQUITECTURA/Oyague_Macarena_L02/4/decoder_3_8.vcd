@@ -1,0 +1,72 @@
+$date
+	Thu May  7 20:26:29 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module decoder3_8_tb $end
+$var wire 8 ! output1 [7:0] $end
+$var reg 1 " enable $end
+$var reg 3 # input1 [2:0] $end
+$scope module decoder $end
+$var wire 1 " enable $end
+$var wire 3 $ input1 [2:0] $end
+$var wire 8 % output1 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 %
+b0 $
+b0 #
+1"
+b1 !
+$end
+#1
+b10 !
+b10 %
+b1 #
+b1 $
+#2
+b100 !
+b100 %
+b10 #
+b10 $
+#3
+b1000 !
+b1000 %
+b11 #
+b11 $
+#4
+b10000 !
+b10000 %
+b100 #
+b100 $
+#5
+b100000 !
+b100000 %
+b101 #
+b101 $
+#6
+b1000000 !
+b1000000 %
+b110 #
+b110 $
+#7
+b10000000 !
+b10000000 %
+b111 #
+b111 $
+#8
+b0 !
+b0 %
+b0 #
+b0 $
+0"
+#9
+b1 #
+b1 $

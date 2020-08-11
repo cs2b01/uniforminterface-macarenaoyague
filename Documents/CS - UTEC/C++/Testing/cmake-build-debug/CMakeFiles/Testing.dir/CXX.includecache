@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/CS - UTEC/C++/Testing/forward.h
+list.h
+/Users/macarena/Documents/CS - UTEC/C++/Testing/list.h
+
+/Users/macarena/Documents/CS - UTEC/C++/Testing/list.h
+node.h
+/Users/macarena/Documents/CS - UTEC/C++/Testing/node.h
+cstring
+/Users/macarena/Documents/CS - UTEC/C++/Testing/cstring
+
+/Users/macarena/Documents/CS - UTEC/C++/Testing/main.cpp
+iostream
+-
+sstream
+-
+vector
+-
+forward.h
+/Users/macarena/Documents/CS - UTEC/C++/Testing/forward.h
+
+/Users/macarena/Documents/CS - UTEC/C++/Testing/node.h
+

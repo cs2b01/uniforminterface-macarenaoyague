@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/estanislao.contreras/CLionProjects/Ejercicio21/main.cpp
+iostream
+-
+string
+-
+thread
+-
+mutex
+-
+

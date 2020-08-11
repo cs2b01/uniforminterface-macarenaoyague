@@ -1,0 +1,3 @@
+C:/Users/estanislao.contreras/CLionProjects/Ejercicio21/cmake-build-debug/CMakeFiles/Ejercicio21.dir
+C:/Users/estanislao.contreras/CLionProjects/Ejercicio21/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/estanislao.contreras/CLionProjects/Ejercicio21/cmake-build-debug/CMakeFiles/rebuild_cache.dir
