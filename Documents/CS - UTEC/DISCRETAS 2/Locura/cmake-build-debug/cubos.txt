@@ -1,0 +1,2 @@
+rojo,verde,blanco,rojo,rojo,azul
+rojo,verde,blanco,rojo,rojo,azul

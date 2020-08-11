@@ -1,0 +1,10 @@
+PR001;Lenovo;IdeaPad 330 15.6;Computo;2540.408063
+PR002;Dell;Inspiron 15.6;Computo;3038.765625
+PR003;HP;Pavilion 14;Computo;2672.898244
+PR004;Apple;MacBook Air 13.3;Computo;4131.505744
+PR005;Apple;MacBook Pro 13.3;Computo;8021.125744
+PR006;Lenovo;Tab 10 ;Tablet;683.197156
+PR007;Samsung;Galaxy Tab Kids 7;Tablet;702.773005
+PR008;Huamei;MediaPad T3;Tablet;624.469606
+PR009;Apple;iPad;Tablet;2542.902876
+PR010;Samsung;SM;Tablet;5087.763339

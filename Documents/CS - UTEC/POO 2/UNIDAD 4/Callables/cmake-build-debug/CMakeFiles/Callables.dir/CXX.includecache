@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/UNIDAD 4/Callables/main.cpp
+iostream
+-
+functional
+-
+cmath
+/Users/macarena/Documents/Cursos de carrera/POO 2/UNIDAD 4/Callables/cmath
+vector
+-
+

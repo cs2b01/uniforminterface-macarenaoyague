@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/econtreras/CLionProjects/Ejercicio15/linked_list.cpp
+iostream
+-
+string
+-
+
+C:/Users/econtreras/CLionProjects/Ejercicio15/main.cpp
+iostream
+-
+linked_list.cpp
+C:/Users/econtreras/CLionProjects/Ejercicio15/linked_list.cpp
+

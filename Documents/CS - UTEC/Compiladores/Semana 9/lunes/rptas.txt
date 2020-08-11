@@ -1,0 +1,15 @@
+1. a) No es ambigua.
+
+   b) Sí se respeta una precedencia matemática en la ejecución semántica para realizar la operación. -ejemplo anexado en imagen-
+
+2. a) La gramática que proveen es ambigua. Se cambio la gramática por la siguiente:
+    exp -> num | num + exp | num - exp | num * exp | (exp)
+    
+    b) No tiene una precedencia exclusiva correspondiente a las matemáticas reales; podría ser '+', '-' o '*'. De manera sintáctica sí funciona y es válida, pero a nivel semántica no. El código yacc no compilaba inicialmente arrojando shift/reduce conflicts; por ello se ha implementado eliminando la ambiguedad.
+
+3. a) La gramática que proveen es ambigua. Se cambio la gramática por la siguiente:
+    S -> C 
+    C -> a
+    Esto se debe a que las dos reglas A y B derivaban al mismo terminal sin tener ninguna diferencie entre ellas; por ello es que se reemplazaron por una regla nueva llamada C
+    
+    b) El código yacc no compilaba inicialmente arrojando Reduce/Reduce conflicts; por ello se ha implementado eliminando la ambiguedad.
