@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Automata.dir/Alfabeto.cpp.o CMakeFiles/Automata.dir/Automata.cpp.o CMakeFiles/Automata.dir/Estado.cpp.o CMakeFiles/Automata.dir/main.cpp.o  -o Automata 

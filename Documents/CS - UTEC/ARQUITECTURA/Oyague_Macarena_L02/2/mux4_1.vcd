@@ -1,0 +1,109 @@
+$date
+	Wed May  6 16:58:05 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux4_1_tb $end
+$var wire 16 ! output1 [15:0] $end
+$var reg 16 " input1 [15:0] $end
+$var reg 16 # input2 [15:0] $end
+$var reg 16 $ input3 [15:0] $end
+$var reg 16 % input4 [15:0] $end
+$var reg 2 & selector [1:0] $end
+$scope module mux $end
+$var wire 16 ' input1 [15:0] $end
+$var wire 16 ( input2 [15:0] $end
+$var wire 16 ) input3 [15:0] $end
+$var wire 16 * input4 [15:0] $end
+$var wire 2 + selector [1:0] $end
+$var wire 16 , submodule2 [15:0] $end
+$var wire 16 - submodule1 [15:0] $end
+$var wire 16 . output1 [15:0] $end
+$scope module mux1 $end
+$var wire 16 / input1 [15:0] $end
+$var wire 16 0 input2 [15:0] $end
+$var wire 1 1 selector $end
+$var wire 16 2 output1 [15:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 16 3 input1 [15:0] $end
+$var wire 16 4 input2 [15:0] $end
+$var wire 1 5 selector $end
+$var wire 16 6 output1 [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1101011000001001 6
+05
+b101011001100011 4
+b1101011000001001 3
+b11010100100100 2
+01
+b101111010000001 0
+b11010100100100 /
+b11010100100100 .
+b11010100100100 -
+b1101011000001001 ,
+b0 +
+b101011001100011 *
+b1101011000001001 )
+b101111010000001 (
+b11010100100100 '
+b0 &
+b101011001100011 %
+b1101011000001001 $
+b101111010000001 #
+b11010100100100 "
+b11010100100100 !
+$end
+#1
+b101111010000001 !
+b101111010000001 .
+b101111010000001 -
+b101111010000001 2
+b101011001100011 ,
+b101011001100011 6
+11
+15
+b1 &
+b1 +
+#2
+b11010100100100 -
+b11010100100100 2
+b1101011000001001 ,
+b1101011000001001 6
+b1101011000001001 !
+b1101011000001001 .
+01
+05
+b10 &
+b10 +
+#3
+b101011001100011 !
+b101011001100011 .
+b101111010000001 -
+b101111010000001 2
+b101011001100011 ,
+b101011001100011 6
+11
+15
+b11 &
+b11 +
+#4
+b11010100100100 -
+b11010100100100 2
+b1101011000001001 ,
+b1101011000001001 6
+b11010100100100 !
+b11010100100100 .
+01
+05
+b0 &
+b0 +

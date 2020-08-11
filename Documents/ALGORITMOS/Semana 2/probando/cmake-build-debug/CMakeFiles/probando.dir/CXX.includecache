@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/circular.h
+list.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/list.h
+iterators/bidirectional_iterator.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/bidirectional_iterator.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/forward.h
+list.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/list.h
+iterators/forward_iterator.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/forward_iterator.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/bidirectional_iterator.h
+../node.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/node.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/forward_iterator.h
+../node.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/node.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/linked.h
+list.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/list.h
+iterators/bidirectional_iterator.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/iterators/bidirectional_iterator.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/list.h
+node.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/node.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/main.cpp
+iostream
+-
+stack.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/stack.h
+queue.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/queue.h
+forward.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/forward.h
+linked.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/linked.h
+circular.h
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/circular.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/node.h
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/queue.h
+stdexcept
+-
+
+/Users/macarena/Documents/ALGORITMOS/Semana 2/probando/stack.h
+stdexcept
+-
+

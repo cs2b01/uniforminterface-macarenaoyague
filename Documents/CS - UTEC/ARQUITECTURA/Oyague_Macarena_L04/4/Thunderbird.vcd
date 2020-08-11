@@ -1,0 +1,172 @@
+$date
+	Sun May 31 22:45:42 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Thunderbird_tb $end
+$var wire 3 ! y [2:0] $end
+$var wire 1 " RC $end
+$var wire 1 # RB $end
+$var wire 1 $ RA $end
+$var wire 1 % LC $end
+$var wire 1 & LB $end
+$var wire 1 ' LA $end
+$var reg 1 ( L $end
+$var reg 1 ) R $end
+$var reg 1 * clk $end
+$var reg 1 + reset $end
+$scope module fsm $end
+$var wire 1 ( L $end
+$var wire 1 ' LA $end
+$var wire 1 & LB $end
+$var wire 1 ) R $end
+$var wire 1 $ RA $end
+$var wire 1 # RB $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 1 " RC $end
+$var wire 1 % LC $end
+$var reg 3 , next_state [2:0] $end
+$var reg 3 - y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+b0 ,
+1+
+0*
+0)
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+bx !
+$end
+#1
+0'
+0$
+0&
+0#
+0%
+0"
+b0 !
+b0 -
+1*
+0+
+#2
+b100 ,
+0*
+1)
+#3
+1$
+b101 ,
+b100 !
+b100 -
+1*
+#4
+0*
+#5
+b111 ,
+1#
+b101 !
+b101 -
+1*
+#6
+0*
+#7
+b0 ,
+1"
+b111 !
+b111 -
+1*
+#8
+0*
+#9
+b100 ,
+0$
+0#
+0"
+b0 !
+b0 -
+1*
+#10
+b1 ,
+0*
+1(
+#11
+1'
+b10 ,
+b1 !
+b1 -
+1*
+#12
+0*
+#13
+b11 ,
+1&
+b10 !
+b10 -
+1*
+#14
+0*
+#15
+b0 ,
+1%
+b11 !
+b11 -
+1*
+#16
+0*
+#17
+b1 ,
+0&
+0'
+0%
+b0 !
+b0 -
+1*
+#18
+0*
+#19
+1'
+b10 ,
+b1 !
+b1 -
+1*
+#20
+0*
+#21
+b11 ,
+1&
+b10 !
+b10 -
+1*
+#22
+0*
+#23
+b0 ,
+1%
+b11 !
+b11 -
+1*
+#24
+0*
+#25
+b1 ,
+0&
+0'
+0%
+b0 !
+b0 -
+1*
+#26
+0*

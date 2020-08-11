@@ -1,0 +1,141 @@
+$date
+	Thu May  7 20:21:27 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module demux1_4_tb $end
+$var wire 16 ! output4 [15:0] $end
+$var wire 16 " output3 [15:0] $end
+$var wire 16 # output2 [15:0] $end
+$var wire 16 $ output1 [15:0] $end
+$var reg 16 % input1 [15:0] $end
+$var reg 2 & selector [1:0] $end
+$scope module mux $end
+$var wire 16 ' input1 [15:0] $end
+$var wire 2 ( selector [1:0] $end
+$var wire 16 ) submodule2_b [15:0] $end
+$var wire 16 * submodule2_a [15:0] $end
+$var wire 16 + submodule1_b [15:0] $end
+$var wire 16 , submodule1_a [15:0] $end
+$var wire 16 - output4 [15:0] $end
+$var wire 16 . output3 [15:0] $end
+$var wire 16 / output2 [15:0] $end
+$var wire 16 0 output1 [15:0] $end
+$scope module mux1 $end
+$var wire 16 1 input1 [15:0] $end
+$var wire 1 2 selector $end
+$var wire 16 3 output2 [15:0] $end
+$var wire 16 4 output1 [15:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 16 5 input1 [15:0] $end
+$var wire 1 6 selector $end
+$var wire 16 7 output2 [15:0] $end
+$var wire 16 8 output1 [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11010100100100 8
+b0 7
+06
+b11010100100100 5
+b11010100100100 4
+b0 3
+02
+b11010100100100 1
+b11010100100100 0
+b0 /
+b0 .
+b0 -
+b11010100100100 ,
+b0 +
+b11010100100100 *
+b0 )
+b0 (
+b11010100100100 '
+b0 &
+b11010100100100 %
+b11010100100100 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+b0 $
+b0 0
+b11010100100100 #
+b11010100100100 /
+b0 ,
+b0 4
+b11010100100100 +
+b11010100100100 3
+b0 *
+b0 8
+b11010100100100 )
+b11010100100100 7
+12
+16
+b1 &
+b1 (
+#2
+b11010100100100 "
+b11010100100100 .
+b11010100100100 ,
+b11010100100100 4
+b0 +
+b0 3
+b11010100100100 *
+b11010100100100 8
+b0 )
+b0 7
+b0 #
+b0 /
+b0 !
+b0 -
+02
+06
+b10 &
+b10 (
+#3
+b0 "
+b0 .
+b11010100100100 !
+b11010100100100 -
+b0 ,
+b0 4
+b11010100100100 +
+b11010100100100 3
+b0 *
+b0 8
+b11010100100100 )
+b11010100100100 7
+12
+16
+b11 &
+b11 (
+#4
+b11010100100100 $
+b11010100100100 0
+b11010100100100 ,
+b11010100100100 4
+b0 +
+b0 3
+b11010100100100 *
+b11010100100100 8
+b0 )
+b0 7
+b0 #
+b0 /
+b0 !
+b0 -
+02
+06
+b0 &
+b0 (

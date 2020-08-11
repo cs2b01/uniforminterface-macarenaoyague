@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Compiladores/Automata/Alfabeto.h
+unordered_map
+-
+
+/Users/macarena/Documents/Compiladores/Automata/Automata.h
+Estado.h
+/Users/macarena/Documents/Compiladores/Automata/Estado.h
+Alfabeto.h
+/Users/macarena/Documents/Compiladores/Automata/Alfabeto.h
+vector
+-
+
+/Users/macarena/Documents/Compiladores/Automata/Estado.h
+string
+/Users/macarena/Documents/Compiladores/Automata/string
+map
+-
+
+/Users/macarena/Documents/Compiladores/Automata/main.cpp
+iostream
+-
+vector
+-
+Automata.h
+/Users/macarena/Documents/Compiladores/Automata/Automata.h
+

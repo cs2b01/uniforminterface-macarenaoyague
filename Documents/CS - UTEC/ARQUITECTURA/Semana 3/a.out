@@ -1,0 +1,96 @@
+#! /usr/local/Cellar/icarus-verilog/10.3/bin/vvp
+:ivl_version "10.3 (stable)" "(v10_3)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x7fb81ed04b60 .scope module, "gates7_structural_tb" "gates7_structural_tb" 2 2;
+ .timescale -9 -9;
+v0x7fb81ed23180_0 .var "a", 0 0;
+v0x7fb81ed23210_0 .var "b", 0 0;
+v0x7fb81ed232a0_0 .net "f_and", 0 0, L_0x7fb81ed237f0;  1 drivers
+v0x7fb81ed23350_0 .net "f_nand", 0 0, L_0x7fb81ed23b00;  1 drivers
+v0x7fb81ed23400_0 .net "f_nor", 0 0, L_0x7fb81ed23bf0;  1 drivers
+v0x7fb81ed234d0_0 .net "f_not", 0 0, L_0x7fb81ed239d0;  1 drivers
+v0x7fb81ed23580_0 .net "f_or", 0 0, L_0x7fb81ed23920;  1 drivers
+v0x7fb81ed23610_0 .net "f_xnor", 0 0, L_0x7fb81ed23d10;  1 drivers
+v0x7fb81ed236c0_0 .net "f_xor", 0 0, L_0x7fb81ed23c60;  1 drivers
+S_0x7fb81ed094a0 .scope module, "g" "gates7_structural" 2 5, 3 1 0, S_0x7fb81ed04b60;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "a"
+    .port_info 1 /INPUT 1 "b"
+    .port_info 2 /OUTPUT 1 "f_and"
+    .port_info 3 /OUTPUT 1 "f_or"
+    .port_info 4 /OUTPUT 1 "f_not"
+    .port_info 5 /OUTPUT 1 "f_nand"
+    .port_info 6 /OUTPUT 1 "f_nor"
+    .port_info 7 /OUTPUT 1 "f_xor"
+    .port_info 8 /OUTPUT 1 "f_xnor"
+L_0x7fb81ed237f0 .functor AND 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<1>, C4<1>;
+L_0x7fb81ed23920 .functor OR 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<0>, C4<0>;
+L_0x7fb81ed239d0 .functor NOT 1, v0x7fb81ed23180_0, C4<0>, C4<0>, C4<0>;
+L_0x7fb81ed23b00 .functor NAND 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<1>, C4<1>;
+L_0x7fb81ed23bf0 .functor NOR 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<0>, C4<0>;
+L_0x7fb81ed23c60 .functor XOR 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<0>, C4<0>;
+L_0x7fb81ed23d10 .functor XNOR 1, v0x7fb81ed23180_0, v0x7fb81ed23210_0, C4<0>, C4<0>;
+v0x7fb81ed09c60_0 .net "a", 0 0, v0x7fb81ed23180_0;  1 drivers
+v0x7fb81ed22b10_0 .net "b", 0 0, v0x7fb81ed23210_0;  1 drivers
+v0x7fb81ed22bb0_0 .net "f_and", 0 0, L_0x7fb81ed237f0;  alias, 1 drivers
+v0x7fb81ed22c40_0 .net "f_nand", 0 0, L_0x7fb81ed23b00;  alias, 1 drivers
+v0x7fb81ed22ce0_0 .net "f_nor", 0 0, L_0x7fb81ed23bf0;  alias, 1 drivers
+v0x7fb81ed22dc0_0 .net "f_not", 0 0, L_0x7fb81ed239d0;  alias, 1 drivers
+v0x7fb81ed22e60_0 .net "f_or", 0 0, L_0x7fb81ed23920;  alias, 1 drivers
+v0x7fb81ed22f00_0 .net "f_xnor", 0 0, L_0x7fb81ed23d10;  alias, 1 drivers
+v0x7fb81ed22fa0_0 .net "f_xor", 0 0, L_0x7fb81ed23c60;  alias, 1 drivers
+    .scope S_0x7fb81ed04b60;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23180_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23210_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 8 "$display", " a=%b", v0x7fb81ed23180_0, " b=%b", v0x7fb81ed23210_0, " f_and=%b", v0x7fb81ed232a0_0, " f_or=%b", v0x7fb81ed23580_0, " f_not=%b", v0x7fb81ed234d0_0, " f_nand=%b", v0x7fb81ed23350_0, " f_nor=%b", v0x7fb81ed23400_0, " f_xor=%b", v0x7fb81ed236c0_0, " f_xnor=%b", v0x7fb81ed23610_0 {0 0 0};
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb81ed23180_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23210_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 13 "$display", " a=%b", v0x7fb81ed23180_0, " b=%b", v0x7fb81ed23210_0, " f_and=%b", v0x7fb81ed232a0_0, " f_or=%b", v0x7fb81ed23580_0, " f_not=%b", v0x7fb81ed234d0_0, " f_nand=%b", v0x7fb81ed23350_0, " f_nor=%b", v0x7fb81ed23400_0, " f_xor=%b", v0x7fb81ed236c0_0, " f_xnor=%b", v0x7fb81ed23610_0 {0 0 0};
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23180_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb81ed23210_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 18 "$display", " a=%b", v0x7fb81ed23180_0, " b=%b", v0x7fb81ed23210_0, " f_and=%b", v0x7fb81ed232a0_0, " f_or=%b", v0x7fb81ed23580_0, " f_not=%b", v0x7fb81ed234d0_0, " f_nand=%b", v0x7fb81ed23350_0, " f_nor=%b", v0x7fb81ed23400_0, " f_xor=%b", v0x7fb81ed236c0_0, " f_xnor=%b", v0x7fb81ed23610_0 {0 0 0};
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb81ed23180_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fb81ed23210_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 23 "$display", " a=%b", v0x7fb81ed23180_0, " b=%b", v0x7fb81ed23210_0, " f_and=%b", v0x7fb81ed232a0_0, " f_or=%b", v0x7fb81ed23580_0, " f_not=%b", v0x7fb81ed234d0_0, " f_nand=%b", v0x7fb81ed23350_0, " f_nor=%b", v0x7fb81ed23400_0, " f_xor=%b", v0x7fb81ed236c0_0, " f_xnor=%b", v0x7fb81ed23610_0 {0 0 0};
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23180_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fb81ed23210_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 28 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x7fb81ed04b60;
+T_1 ;
+    %vpi_call 2 31 "$dumpfile", "gates7_structural.vcd" {0 0 0};
+    %vpi_call 2 32 "$dumpvars" {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "gates7_structural_tb.v";
+    "gates7_structural.v";
