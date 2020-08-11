@@ -1,0 +1,12 @@
+location,year,comm_code,commodity,flow,trade_usd,quantity,category
+Afghanistan,2016,10410,Sheep live,Export,6088,51,01_live_animals
+Afghanistan,2014,10420,Goats live,Export,3958,53,01_live_animals
+Afghanistan,2008,10210,Bovine animals live pure-bred breeding,Import,1026804,3769,01_live_animals
+Albania,2016,10290,Bovine animals live except pure-bred breeding,Import,2414533,6853,01_live_animals
+Albania,2014,10392,Swine live except pure-bred breeding > 50 kg,Import,14265937,96040,01_live_animals
+Albania,2016,10511,Fowls live domestic < 185 grams,Import,2671732,5629138,01_live_animals
+Albania,2019,10511,Fowls live domestic < 185 grams,Export,87581,115180,01_live_animals
+Albania,2016,10519,Poultry live except domestic fowls < 185 grams,Import,26485,6400088,01_live_animals
+Albania,2016,10591,Fowls live domestic > 185 grams,Import,2421513,1006990,01_live_animals
+Albania,2016,10599,Poultry live except domestic fowls > 185 grams,Import,251318,205124,01_live_animals
+Albania,2016,10600,Animals live except farm animals,Export,584025,5955521,01_live_animals

@@ -1,0 +1,41 @@
+
+                            MATRIZ DISPERSA
+
+El programa cuenta con una clase Matriz, con la cual se podran crear instancias de
+dicha clase y realizar con ellas las operaciones de:
+    Suma
+    Resta
+    Multiplicacion
+    Transpuesta
+    Producto escalar
+
+Se puede acceder a dichas operaciones a traves de los siguientes operadores:
+    Matriz + Matriz
+    Matriz - Matriz
+    Matriz * Matriz
+    + Matriz
+    double * Matriz
+
+A partir de ello se ha creado en el main las siguientes funciones para poder
+hacer una demostracion de la ejecucion del programa:
+    PruebaSumayResta
+    PruebaMultiplicacion
+    PruebaProductoEscalaryTranspuesta
+
+Se debe tomar en consideracion que para la suma y resta de matrices es necesario que
+tengan el mismo numero de filas y columnas.
+Se debe tomar en consideracion que para la multiplicacion de matrices el numero de
+columnas de la primera matriz debe ser el mismo que el numero de filas de la segunda.
+De lo contrario, se retornara un objeto Matriz sin elementos.
+
+Se opto por utilizar tres vectores dentro de la memoria dinamica para optimizar el uso
+de memoria que genera la dispersion. Un vector guarda la posicion en la fila del dato,
+el otro la posicion de su columna y el tercero guarda el dato en si mismo.
+Se opto por utilizar sobrecarga de operadores para facilitar el acceso a las operaciones
+de matrices.
+
+Integrantes:
+
+    Alvaro Aguirre
+    Macarena Oyague
+    Eduardo Salas

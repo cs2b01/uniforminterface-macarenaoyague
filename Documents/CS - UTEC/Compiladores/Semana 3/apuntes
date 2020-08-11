@@ -1,0 +1,41 @@
+
+RUTANOMBREARCHIVO   [fopen]{espacio}*[(]{espacio}*{COMILLAS}
+
+
+
+
+%{
+
+    #include <stdio.h>
+
+%}
+
+
+
+assignment          {arithmetic}?=
+conditional         ?
+
+
+
+
+
+            
+%%
+
+
+OPERATOR            {arithmetic}|{relational}|{logical}|{bitwise}|{assignment}|{conditional}
+
+%% 
+  
+int yywrap(){return 1;}  
+
+int main() 
+{ 
+
+    extern FILE *yyin;
+    yyin = fopen("test.c","r");
+    yylex();
+    
+    return 0; 
+
+}

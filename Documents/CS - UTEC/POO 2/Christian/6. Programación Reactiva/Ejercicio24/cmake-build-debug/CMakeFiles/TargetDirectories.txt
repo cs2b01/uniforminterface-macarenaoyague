@@ -1,0 +1,3 @@
+C:/Users/econtreras/Ejercicio24/cmake-build-debug/CMakeFiles/Ejercicio24.dir
+C:/Users/econtreras/Ejercicio24/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/econtreras/Ejercicio24/cmake-build-debug/CMakeFiles/rebuild_cache.dir

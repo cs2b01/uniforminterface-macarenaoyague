@@ -1,0 +1,3 @@
+/Users/christianledgard/Documents/2019-1/POOII/Ejercicios Profesor/6. Programación Reactiva/Ejercicio27/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/christianledgard/Documents/2019-1/POOII/Ejercicios Profesor/6. Programación Reactiva/Ejercicio27/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/christianledgard/Documents/2019-1/POOII/Ejercicios Profesor/6. Programación Reactiva/Ejercicio27/cmake-build-debug/CMakeFiles/Ejercicio27.dir

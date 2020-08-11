@@ -1,0 +1,3 @@
+/Users/macarena/Documents/Cursos de carrera/POO 2/UNIDAD 4/PC2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/macarena/Documents/Cursos de carrera/POO 2/UNIDAD 4/PC2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/macarena/Documents/Cursos de carrera/POO 2/UNIDAD 4/PC2/cmake-build-debug/CMakeFiles/PC2.dir

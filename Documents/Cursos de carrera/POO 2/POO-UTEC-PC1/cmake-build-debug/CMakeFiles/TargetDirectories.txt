@@ -1,3 +1,0 @@
-/Users/macarena/Documents/Cursos de carrera/POO 2/POO-UTEC-PC1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/macarena/Documents/Cursos de carrera/POO 2/POO-UTEC-PC1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/macarena/Documents/Cursos de carrera/POO 2/POO-UTEC-PC1/cmake-build-debug/CMakeFiles/POO_UTEC_PC1.dir

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/element.h
+string
+-
+vector
+-
+sstream
+-
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/main.cpp
+iostream
+-
+repo.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/repo.h
+element.h
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/element.h
+
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/repo.h
+string
+/Users/macarena/Documents/Cursos de carrera/POO 2/PC3/string
+fstream
+-
+

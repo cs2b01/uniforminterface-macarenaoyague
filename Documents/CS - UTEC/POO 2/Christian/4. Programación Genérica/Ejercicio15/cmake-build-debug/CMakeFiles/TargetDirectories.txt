@@ -1,0 +1,3 @@
+C:/Users/econtreras/CLionProjects/Ejercicio15/cmake-build-debug/CMakeFiles/Ejercicio15.dir
+C:/Users/econtreras/CLionProjects/Ejercicio15/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/econtreras/CLionProjects/Ejercicio15/cmake-build-debug/CMakeFiles/rebuild_cache.dir

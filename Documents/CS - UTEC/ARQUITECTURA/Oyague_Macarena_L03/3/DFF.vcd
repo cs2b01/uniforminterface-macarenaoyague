@@ -1,0 +1,42 @@
+$date
+	Sun May 24 16:26:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module DFF_tb $end
+$var wire 1 ! q $end
+$var reg 1 " clr $end
+$var reg 1 # d $end
+$var reg 1 $ we $end
+$scope module dff $end
+$var wire 1 " clr $end
+$var wire 1 # d $end
+$var wire 1 $ we $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1#
+1"
+x!
+$end
+#1
+0!
+1$
+#2
+0$
+0"
+#3
+1!
+1$
+#4
+0$
+#5
+1$
